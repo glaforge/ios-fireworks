@@ -1,0 +1,16 @@
+//
+//  UIColor+Custom.h
+//  FeuArtifice
+//
+//  Created by Patrice Trognon on 11/07/2015.
+//  Copyright (c) 2015 Patrice Trognon. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UIColor (Custom)
+
++(UIColor*)oddColor;
++(UIColor*)evenColor;
+
+@end
